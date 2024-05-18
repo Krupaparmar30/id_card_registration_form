@@ -36,7 +36,7 @@ Padding box1({required TextEditingController? controller})
         }
 
       },
-      keyboardType: TextInputType.number,
+
       style: TextStyle(height: 1),
 
       decoration: InputDecoration(
@@ -215,6 +215,7 @@ Padding dob_box({required TextEditingController? controller})
       },
 
       style: TextStyle(height: 1),
+      keyboardType: TextInputType.number,
 
       decoration: InputDecoration(
         labelText: 'DD/MM/YY',
